@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scorecard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3 class="home-title">HOME</h3>
+        <div class="score-box">
+          <span id="home">0</span>
+        </div>
+        <button class="btn" onclick="homeone()">+1</button>
+        <button class="btn" onclick="hometwo()">+2</button>
+        <button class="btn" onclick="homethree()">+3</button>
+      </div>
+      <div>
+        <h3 class="guest-title">AWAY</h3>
+        <div class="score-box">
+          <span id="guest">0</span>
+        </div>
+        <button class="btn" onclick="guestone()">+1</button>
+        <button class="btn" onclick="guesttwo()">+2</button>
+        <button class="btn" onclick="guestthree()">+3</button>
+      </div>
+    </div>
+    <div class="restart">
+      <button id="new-game" onclick="restart()">New Game</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
